@@ -25,7 +25,7 @@ with col4:
 st.divider()
 
 st.subheader("⚙️ Makine Yıpranması")
-yazici_fiyat = st.number_input("Yazıcı Fiyatı (TL)", value=23000.0)
+yazici_fiyat = st.number_input("Yazıcı Fiyatı (TL)", value=28500.0)
 omur = st.number_input("Yazıcı Ömrü (Saat)", value=3000.0)
 
 if st.button("HESAPLA", type="primary", use_container_width=True):
@@ -46,4 +46,5 @@ if st.button("HESAPLA", type="primary", use_container_width=True):
     """)
 
 else:
+
     st.write("Sonuç için 'HESAPLA' butonuna basınız.")
